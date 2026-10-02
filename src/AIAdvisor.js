@@ -38,6 +38,7 @@ function AIAdvisor({ weatherData }) {
   return (
     <div className="ai-summary">
       <h3>AI Weather Insight</h3>
+      <p>{summary}</p>
     </div>
   );
 }
